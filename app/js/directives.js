@@ -8,4 +8,9 @@ angular.module('myApp.directives', []).
     return function(scope, elm, attrs) {
       elm.text(version);
     };
+  }]).
+   directive('eggs', ['eggs', function(version) {
+    return function(scope, elm, attrs) {
+      elm.text(version);
+    };
   }]);

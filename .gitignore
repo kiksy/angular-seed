@@ -1,2 +1,6 @@
 logs/*
 !.gitkeep
+
+.settings
+.project
+.gitignore
